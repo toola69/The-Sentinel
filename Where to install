@@ -1,0 +1,14 @@
+copy config to /home/yourusername/.i3/config
+copy i3status to /home/yourusername/.i3status.conf
+copy morc_menu_V1.conf to /home/.config/morc_menu/morc_menu_V1.conf
+copy compton.conf /home/.config
+mkdir .config/dunst
+copy dunstrc to /home/.config/dunst/dunstrc
+copy Xresources /home/.Xresources
+
+#From the AUR
+i3-gapps.git
+morc menu
+dunst
+compton-git
+rofi
