@@ -1,0 +1,44 @@
+*background: #161616
+*foreground: #FFFFFF
+*cursorColor: #E4E4E4
+
+!black
+*color0:  #24181c
+*color8:  #49393f
+!red
+*color1:  #a54242
+*color9:  #cb6565
+!green
+*color2:  #89913f
+*color10: #b5bd68
+!yellow
+*color3:  #dd925e
+*color11: #efc573
+!blue
+*color4:  #5f819d
+*color12: #81a2be
+!magenta
+*color5:  #84668e
+*color13: #b093b9
+!cyan
+*color6:  #5d8b85
+*color14: #8abeb7
+!white
+*color7:  #b0a9ab
+*color15: #dfd9db
+
+
+URxvt*scrollBar:                      false
+URxvt*mouseWheelScrollPage:           true
+URxvt*saveLines:                      5000
+URxvt*font: xft:Terminess Powerline:size=10	
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #161616, #dd925e, #161616
+rofi.color-normal: #161616, #b0a9ab, #161616, #dd925e, #161616
+rofi.color-active: #161616, #268bd2, #eee8d5, #268bd2, #fdf6e3
+rofi.color-urgent: #fdf6e3, #dc322f, #eee8d5, #dc322f, #fdf6e3
+rofi.border-width: 3
